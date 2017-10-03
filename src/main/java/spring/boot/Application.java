@@ -23,4 +23,9 @@ public class Application {
     String hello() {
         return "hola";
     }
+
+    @RequestMapping("/goodbye")
+    String goodbye() {
+        return "adios";
+    }
 }
